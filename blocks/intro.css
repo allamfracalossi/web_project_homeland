@@ -1,0 +1,66 @@
+.intro {
+  padding-top: 92px;
+}
+
+.intro__title {
+  max-width: 830px;
+  margin: 0 0 40px;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.074074;
+}
+
+.intro__quote {
+  max-width: 738px;
+  margin: 0 0 32px;
+}
+
+.intro__quote-text {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.416667;
+}
+
+.intro__quote-author {
+  max-width: 732px;
+  margin: 10px 0 0;
+  font-size: 24px;
+  line-height: 1.416667;
+  text-align: right;
+}
+
+.intro__text {
+  max-width: 722px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.625;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 90px 24px 0;
+  }
+
+  .intro__title {
+    max-width: 707px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    line-height: 1.088889;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro {
+    padding: 64px 16px 0;
+  }
+
+  .intro__title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 1.09375;
+  }
+
+  .intro__quote-text {
+    line-height: 1.25;
+  }
+}
